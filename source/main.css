@@ -1,0 +1,86 @@
+html {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul {
+  position: relative;
+  bottom: 50px;
+}
+
+ul a {
+  text-decoration: none;
+  color: white; 
+  padding: 10px;
+}
+
+ul a:hover {
+  color: #FFBC00;
+}
+ 
+body {
+  margin: 0;
+  padding: 0;
+}
+ 
+header {
+  padding: 10px;
+  background-color: #000;
+}
+ 
+.brand a:hover {
+  color: #FFBC00;
+}
+
+.brand a {
+  font-family: "Lato", Verdana, sans-serif;
+  font-size: 3em;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+li {
+  display: inline;
+  float: right;
+  text-decoration: none;
+  color: white;
+}
+ 
+.brand a:hover {
+  text-decoration: none;
+}
+
+.features div{
+  float: left;
+  width: 33%;
+}
+
+/*.icon-beer {
+  float: left;
+  width: 33%;
+}*/
+
+
+/*.icon-cofee {
+  float: center;
+  width: 33%;
+}
+
+.icon-food {
+  float: right;
+  width: 33%;
+}*/
+ 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+ 
+.marketing {
+  padding: 10px;
+  margin: 1em 0;
+  background-color: #555;
+  clear: both;
+}
