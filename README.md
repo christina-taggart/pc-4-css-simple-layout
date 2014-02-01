@@ -11,7 +11,9 @@
 Demonstrate use of box model, positioning and other css styles to format the
 layout of a page.
 
-## Overview
+## Releases
+
+### Release 0:  Set your targets
 
 For this challenge, your task is to modify the `main.css` file to style the
 page so that the [end result][video] looks like the video below.
@@ -28,18 +30,18 @@ href="http://vimeo.com">Vimeo</a>.</p>
 
 <img src="http://f.cl.ly/items/383F21432m1x3T2d2T3H/hipSTIRR.png" width="90%">
 
-### Objectives
+### Release 1:  Implement to a visual display
 
 * Write clean, concise CSS code.
 * Do **NOT**  change the markup in `index.html` to achieve the result.
 
-### You know your done when:
+#### You know you're done when:
 
 * Your page looks exactly like the video/image
 * You can easily explain each CSS rule that you used
 * Your CSS does not contain extra rules (ones that are overridden by other code).
 
-#### Useful Notes / Tidbits
+##### Useful Notes / Tidbits
 
 - For your yellow color, you can use the HTML color code `#ff0`.
 - The two "grey" colors used are `#333` and `#555`.
