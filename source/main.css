@@ -14,7 +14,8 @@ ul a {
 }
 
 ul a:hover {
-  color: #FFBC00;
+  color: #ff0;
+  text-decoration: underline;
 }
  
 body {
@@ -26,9 +27,10 @@ header {
   padding: 10px;
   background-color: #000;
 }
- 
+
 .brand a:hover {
-  color: #FFBC00;
+  color: #ff0;
+  text-decoration: underline;
 }
 
 .brand a {
@@ -39,17 +41,11 @@ header {
   color: white;
 }
 
-
-
 li {
   display: inline;
   float: right;
   text-decoration: none;
   color: white;
-}
- 
-.brand a:hover {
-  text-decoration: none;
 }
 
 .features div{
