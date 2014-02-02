@@ -3,8 +3,9 @@ html {
 }
 
 ul {
-  position: relative;
-  bottom: 50px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
 }
 
 ul a {
@@ -14,7 +15,7 @@ ul a {
 }
 
 ul a:hover {
-  color: #FFBC00;
+  color: #E6E64B;
 }
  
 body {
@@ -25,14 +26,16 @@ body {
 header {
   padding: 10px;
   background-color: #000;
+  font-style: lighter;
 }
  
 .brand a:hover {
-  color: #FFBC00;
+  color: #E6E64B;
+  text-decoration: underline;
 }
 
 .brand a {
-  font-family: "Lato", Verdana, sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 3em;
   text-decoration: none;
   font-weight: bold;
@@ -43,35 +46,32 @@ header {
 
 li {
   display: inline;
-  float: right;
   text-decoration: none;
   color: white;
 }
  
 .brand a:hover {
-  text-decoration: none;
+ color:#E6E64B;
 }
 
 .features div{
   float: left;
   width: 33%;
+  margin: 20px 0px;
+
 }
 
-/*.icon-beer {
-  float: left;
-  width: 33%;
-}*/
+.features div:nth-child(2){
+  border-left: 1px dotted black;
+  border-right: 1px dotted black;
 
-
-/*.icon-cofee {
-  float: center;
-  width: 33%;
 }
 
-.icon-food {
-  float: right;
-  width: 33%;
-}*/
+.features p{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
  
 .container {
   width: 80%;
@@ -83,4 +83,5 @@ li {
   margin: 1em 0;
   background-color: #555;
   clear: both;
+  color: white;
 }
