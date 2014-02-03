@@ -14,7 +14,7 @@ ul a {
 }
 
 ul a:hover {
-  color: #FFBC00;
+  color: yellow;
 }
  
 body {
@@ -28,7 +28,7 @@ header {
 }
  
 .brand a:hover {
-  color: #FFBC00;
+  color: yellow;
 }
 
 .brand a {
@@ -52,26 +52,43 @@ li {
   text-decoration: none;
 }
 
-.features div{
+.features div {
   float: left;
+  width: 33%;
+  border-left: 1px dotted gray;
+  text-align: left
+}
+
+.features :first-child {
+  border-left: none;
+}
+
+.features p {
+  padding-left: 7.5px;
+  padding-right: 7.5px; 
+}
+
+.features h3 {
+  text-align: center;
+}
+
+.icon-beer {
+  float: center;
   width: 33%;
 }
 
-/*.icon-beer {
-  float: left;
-  width: 33%;
-}*/
 
-
-/*.icon-cofee {
+.icon-cofee {
   float: center;
   width: 33%;
+}
+
 }
 
 .icon-food {
   float: right;
   width: 33%;
-}*/
+}
  
 .container {
   width: 80%;
@@ -83,4 +100,12 @@ li {
   margin: 1em 0;
   background-color: #555;
   clear: both;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  color: white;
+  text-align: center;
+
 }
