@@ -14,21 +14,21 @@ ul a {
 }
 
 ul a:hover {
-  color: #FFBC00;
+  color: #FF0;
 }
- 
+
 body {
   margin: 0;
   padding: 0;
 }
- 
+
 header {
   padding: 10px;
   background-color: #000;
 }
- 
+
 .brand a:hover {
-  color: #FFBC00;
+  color: #FF0;
 }
 
 .brand a {
@@ -47,20 +47,37 @@ li {
   text-decoration: none;
   color: white;
 }
- 
+
 .brand a:hover {
   text-decoration: none;
 }
 
 .features div{
   float: left;
-  width: 33%;
+  width: 31%;
 }
+
+.features > div {
+  border-right:1px solid gray;
+  margin: 8px;
+  margin-bottom: 30px;
+}
+
+.features > div > p {
+margin-right:20px;
+}
+
+.features > div:last-child {
+  border-right: none;
+}
+
+
+
 
 /*.icon-beer {
   float: left;
   width: 33%;
-}*/
+  }*/
 
 
 /*.icon-cofee {
@@ -71,16 +88,23 @@ li {
 .icon-food {
   float: right;
   width: 33%;
-}*/
- 
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
- 
-.marketing {
-  padding: 10px;
-  margin: 1em 0;
-  background-color: #555;
-  clear: both;
-}
+  }*/
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .marketing {
+    padding: 10px;
+    margin: 1em 0;
+    background-color: #555;
+    clear: both;
+    color:white;
+  }
+
+  footer {
+    text-align: center;
+    background-color: black;
+    color:white ;
+  }
