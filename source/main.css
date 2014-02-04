@@ -14,12 +14,21 @@ ul a {
 }
 
 ul a:hover {
-  color: #FFBC00;
+  color: #ff0;
 }
  
 body {
   margin: 0;
   padding: 0;
+}
+
+nav ul li:first-child {
+  float: left;
+  margin-left: 1140px;
+}
+
+nav ul li:nth-child(2) {
+  float: left;
 }
  
 header {
@@ -28,7 +37,8 @@ header {
 }
  
 .brand a:hover {
-  color: #FFBC00;
+  color: #ff0;
+  text-decoration: underline;
 }
 
 .brand a {
@@ -54,7 +64,21 @@ li {
 
 .features div{
   float: left;
-  width: 33%;
+  width: 29%;
+  margin: 20px 15px;
+  padding-right: 15px;
+}
+
+.features div:nth-child(1) {
+    border-right: solid #333 2px;
+}
+
+.features div:nth-child(2) {
+    border-right: solid #333 2px;
+}
+
+.features div h3{
+  text-align: center;
 }
 
 /*.icon-beer {
@@ -83,4 +107,13 @@ li {
   margin: 1em 0;
   background-color: #555;
   clear: both;
+  color: white;
 }
+
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
