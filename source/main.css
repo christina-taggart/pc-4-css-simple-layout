@@ -12,6 +12,14 @@ ul a {
   color: white; 
   padding: 10px;
 }
+ul li:first-child {
+  float:left;
+  margin-left: 1000px; 
+}
+ul li:nth-child(2) {
+  float: left;
+  margin-left: 5px;
+}
 
 ul a:hover {
   color: #FF0;
