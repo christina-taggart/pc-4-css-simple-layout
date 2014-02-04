@@ -9,24 +9,24 @@ ul {
 
 ul a {
   text-decoration: none;
-  color: white; 
+  color: white;
   padding: 10px;
 }
 
 ul a:hover {
   color: #FFBC00;
 }
- 
+
 body {
   margin: 0;
   padding: 0;
 }
- 
+
 header {
   padding: 10px;
   background-color: #000;
 }
- 
+
 .brand a:hover {
   color: #FFBC00;
 }
@@ -39,48 +39,56 @@ header {
   color: white;
 }
 
-
-
 li {
   display: inline;
   float: right;
   text-decoration: none;
   color: white;
 }
- 
+
 .brand a:hover {
   text-decoration: none;
 }
 
-.features div{
-  float: left;
-  width: 33%;
-}
-
-/*.icon-beer {
-  float: left;
-  width: 33%;
-}*/
-
-
-/*.icon-cofee {
-  float: center;
-  width: 33%;
-}
-
-.icon-food {
-  float: right;
-  width: 33%;
-}*/
- 
 .container {
   width: 80%;
   margin: 0 auto;
 }
- 
+
 .marketing {
   padding: 10px;
   margin: 1em 0;
   background-color: #555;
   clear: both;
+}
+
+.marketing h2{
+  color: white;
+}
+
+.marketing p{
+  color: white;
+}
+
+.features div{
+  float: left;
+  font-size: .8em;
+  padding: 20px 15px;
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+.features div:nth-child(2){
+  border-left: 1px dotted black;
+  border-right: 1px dotted black;
+}
+
+.features h3{
+  text-align: center;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
 }
