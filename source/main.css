@@ -23,7 +23,7 @@ body {
 }
  
 header {
-  padding: 10px;
+  padding: 25px;
   background-color: #000;
 }
  
@@ -39,11 +39,12 @@ header {
   color: white;
 }
 
-
+nav ul {
+  float: right;
+}
 
 li {
   display: inline;
-  float: right;
   text-decoration: none;
   color: white;
 }
@@ -52,18 +53,44 @@ li {
   text-decoration: none;
 }
 
-.features div{
+.features div {
   float: left;
   width: 33%;
+}
+
+.container h3 {
+  text-align: center;
+}
+
+.container div:nth-child(3) {
+  border-right: none;
+}
+
+.container div {
+  padding: 10px 0 20px 0;
+}
+
+
+.marketing p, .marketing h2 {
+  padding: 0 10px;
+}
+
+.features div {
+  border-right: dotted 2px #555;
+  margin: 10px 0 30px 0;
+}
+
+.features p {
+  padding: 0 20px;
 }
 
 /*.icon-beer {
   float: left;
   width: 33%;
-}*/
+}
 
 
-/*.icon-cofee {
+.icon-cofee {
   float: center;
   width: 33%;
 }
@@ -79,8 +106,23 @@ li {
 }
  
 .marketing {
-  padding: 10px;
   margin: 1em 0;
   background-color: #555;
   clear: both;
+  color: white;
+  padding: 0 10px;
 }
+
+footer {
+  background: black;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+
+
+
+
