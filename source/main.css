@@ -5,6 +5,7 @@ html {
 ul {
   position: relative;
   bottom: 50px;
+  float: right;
 }
 
 ul a {
@@ -43,7 +44,7 @@ header {
 
 li {
   display: inline;
-  float: right;
+  float: left;
   text-decoration: none;
   color: white;
 }
@@ -55,6 +56,10 @@ li {
 .features div{
   float: left;
   width: 33%;
+}
+
+h3 {
+  text-align: center;
 }
 
 /*.icon-beer {
@@ -79,8 +84,32 @@ li {
 }
  
 .marketing {
+  position: relative;
+  top: 25px;
   padding: 10px;
   margin: 1em 0;
+  margin-bottom: 50px;
   background-color: #555;
   clear: both;
+  color: white;
 }
+
+footer{
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-top: 50px;
+}
+
+.features div p{
+  /*border-left: thick solid black;*/
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.features div:nth-child(2){
+  border-left: 1px dotted black;
+  border-right: 1px dotted black;
+}
+
