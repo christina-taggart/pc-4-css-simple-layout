@@ -25,6 +25,7 @@ body {
 header {
   padding: 10px;
   background-color: #000;
+  font-weight: lighter;
 }
 
 .brand a:hover {
@@ -55,6 +56,7 @@ li {
 .features div{
   float: left;
   width: 33%;
+  margin: 20px 0;
 }
 
 .container {
@@ -66,13 +68,20 @@ p {
   font-weight: lighter;
 }
 
-div:not(.marketing, .features, .container) {
+.features div:nth-child(2) {
   border-left: 1px dotted black;
+  border-right: 1px dotted black;
 }
 
-.icon-beer, .icon-coffee, .icon-food {
-  margin: 0 auto;
+.features p {
+  margin-left: 15px;
+  margin-right: 15px;
 }
+
+.features h3 {
+  text-align: center;
+}
+
 
 .marketing {
   padding: 10px;
