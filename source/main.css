@@ -2,33 +2,29 @@ html {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-ul {
-  position: relative;
-  bottom: 50px;
-}
-
 ul a {
   text-decoration: none;
-  color: white; 
+  color: white;
   padding: 10px;
 }
 
-ul a:hover {
-  color: #FFBC00;
-}
- 
 body {
   margin: 0;
   padding: 0;
 }
- 
+
 header {
   padding: 10px;
   background-color: #000;
 }
- 
+
+.brand a:hover, ul a:hover {
+  color: #ff0;
+  border-bottom-color: #ff0;
+}
+
 .brand a:hover {
-  color: #FFBC00;
+    text-decoration: underline;
 }
 
 .brand a {
@@ -39,17 +35,19 @@ header {
   color: white;
 }
 
-
-
 li {
   display: inline;
-  float: right;
   text-decoration: none;
   color: white;
 }
- 
-.brand a:hover {
-  text-decoration: none;
+
+nav {
+  float:right;
+}
+
+.features {
+  padding: 20px 0px;
+  height: 450px;
 }
 
 .features div{
@@ -57,30 +55,36 @@ li {
   width: 33%;
 }
 
-/*.icon-beer {
-  float: left;
-  width: 33%;
-}*/
-
-
-/*.icon-cofee {
-  float: center;
-  width: 33%;
+.features div:nth-child(2){
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
 }
 
-.icon-food {
-  float: right;
-  width: 33%;
-}*/
- 
+.features h3 {
+  text-align: center;
+}
+
+
+.features p {
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
 .container {
-  width: 80%;
+  width: 960px;
   margin: 0 auto;
 }
- 
+
 .marketing {
   padding: 10px;
   margin: 1em 0;
   background-color: #555;
+  color: white;
   clear: both;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background: black;
 }
