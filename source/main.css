@@ -9,26 +9,26 @@ ul {
 
 ul a {
   text-decoration: none;
-  color: white; 
+  color: white;
   padding: 10px;
 }
 
 ul a:hover {
-  color: #FFBC00;
+  color: #FF0;
 }
- 
+
 body {
   margin: 0;
   padding: 0;
 }
- 
+
 header {
   padding: 10px;
   background-color: #000;
 }
- 
+
 .brand a:hover {
-  color: #FFBC00;
+  color: #FF0;
 }
 
 .brand a {
@@ -39,23 +39,34 @@ header {
   color: white;
 }
 
-
-
 li {
   display: inline;
   float: right;
   text-decoration: none;
   color: white;
 }
- 
+
 .brand a:hover {
   text-decoration: none;
 }
 
+.features{
+  overflow: hidden;
+  margin: 0 3%;
+}
+
+.features div + div{
+  border-left: 2px dotted gray;
+}
+
 .features div{
   float: left;
-  width: 33%;
+  width: 28%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
+
+
 
 /*.icon-beer {
   float: left;
@@ -72,15 +83,23 @@ li {
   float: right;
   width: 33%;
 }*/
- 
+
 .container {
   width: 80%;
   margin: 0 auto;
 }
- 
+
 .marketing {
   padding: 10px;
-  margin: 1em 0;
+  margin: 1em;
   background-color: #555;
   clear: both;
+  color: white;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  font-weight: lighter;
+  text-align: center;
 }
