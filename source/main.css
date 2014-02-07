@@ -5,56 +5,65 @@ html {
 ul {
   position: relative;
   bottom: 50px;
+  float: right;
 }
 
 ul a {
   text-decoration: none;
-  color: white; 
-  padding: 10px;
-}
+  color: white;
+  padding: 10px;}
 
 ul a:hover {
-  color: #FFBC00;
+  color: #ff0;
 }
- 
+
 body {
   margin: 0;
   padding: 0;
 }
- 
+
 header {
   padding: 10px;
   background-color: #000;
 }
- 
+
 .brand a:hover {
-  color: #FFBC00;
+  color: #ff0;
+  text-decoration: #ff0;
+  border-bottom: 1px solid #ff0;
 }
 
 .brand a {
-  font-family: "Lato", Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 3em;
   text-decoration: none;
-  font-weight: bold;
   color: white;
 }
 
 
 
 li {
-  display: inline;
-  float: right;
+  display: inline-block;
   text-decoration: none;
-  color: white;
 }
- 
+
 .brand a:hover {
   text-decoration: none;
 }
 
-.features div{
+.features div {
   float: left;
-  width: 33%;
+  width: 27%;
+  border-right: 2px solid #555;
+  padding: 0 2% 0 4%;
+}
+
+.features div:last-child {
+  border-right: none;
+}
+
+.features h3 {
+  text-align: center;
 }
 
 /*.icon-beer {
@@ -72,15 +81,25 @@ li {
   float: right;
   width: 33%;
 }*/
- 
+
 .container {
   width: 80%;
   margin: 0 auto;
 }
- 
+
 .marketing {
   padding: 10px;
   margin: 1em 0;
   background-color: #555;
   clear: both;
+}
+
+.marketing p, h2 {
+  color: #EEEEEE;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
 }
