@@ -14,12 +14,13 @@ ul a {
 }
 
 ul a:hover {
-  color: #FFBC00;
+  text-decoration: underline;
+  color: #ff0;
 }
  
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
  
 header {
@@ -27,6 +28,16 @@ header {
   background-color: #000;
 }
  
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
 .brand a:hover {
   color: #FFBC00;
 }
@@ -39,8 +50,6 @@ header {
   color: white;
 }
 
-
-
 li {
   display: inline;
   float: right;
@@ -49,7 +58,13 @@ li {
 }
  
 .brand a:hover {
-  text-decoration: none;
+  text-decoration: underline;
+  color: #ff0;
+
+}
+
+.features {
+  padding: 20px;
 }
 
 .features div{
@@ -57,25 +72,31 @@ li {
   width: 33%;
 }
 
-/*.icon-beer {
-  float: left;
+.features p {
+  padding: 20px;
+}
+
+.features div:nth-child(2){
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.icon-beer {
   width: 33%;
-}*/
+}
 
 
-/*.icon-cofee {
-  float: center;
+.icon-coffee {
   width: 33%;
 }
 
 .icon-food {
-  float: right;
   width: 33%;
-}*/
+}
  
 .container {
   width: 80%;
-  margin: 0 auto;
+  margin: 10px auto;
 }
  
 .marketing {
@@ -83,4 +104,5 @@ li {
   margin: 1em 0;
   background-color: #555;
   clear: both;
+  color: white;
 }
