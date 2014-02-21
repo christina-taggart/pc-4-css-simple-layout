@@ -44,6 +44,7 @@ header {
 
 li {
   display: inline;
+  float: left;
   text-decoration: none;
   color: white;
 }
@@ -55,6 +56,10 @@ li {
 .features div{
   float: left;
   width: 33%;
+}
+
+h3 {
+  text-align: center;
 }
 
 /*.icon-beer {
@@ -81,8 +86,10 @@ li {
  
 .marketing {
   position: relative;
+  top: 25px;
   padding: 10px;
   margin: 1em 0;
+  margin-bottom: 50px;
   background-color: #555;
   clear: both;
   color: white;
@@ -104,6 +111,8 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
+  margin-top: 50px;
+  position: relative;
 }
 
 .features div:nth-child(2) {
@@ -114,4 +123,16 @@ footer {
 .features div p {
   padding-left: 25px;
   padding-right: 25px;
+
+
+.features div p{
+  /*border-left: thick solid black;*/
+  padding-left: 10%;
+  padding-right: 10%;
 }
+
+.features div:nth-child(2){
+  border-left: 1px dotted black;
+  border-right: 1px dotted black;
+}
+
