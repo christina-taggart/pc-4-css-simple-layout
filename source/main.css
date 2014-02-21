@@ -5,6 +5,7 @@ html {
 ul {
   position: relative;
   bottom: 50px;
+  float: right;
 }
 
 ul a {
@@ -43,7 +44,6 @@ header {
 
 li {
   display: inline;
-  float: right;
   text-decoration: none;
   color: white;
 }
@@ -76,11 +76,42 @@ li {
 .container {
   width: 80%;
   margin: 0 auto;
+  position: relative;
 }
  
 .marketing {
+  position: relative;
   padding: 10px;
   margin: 1em 0;
   background-color: #555;
   clear: both;
+  color: white;
+}
+
+.container div {
+  margin-bottom: 30px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.features div p {
+  margin-bottom: 45px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.features div:nth-child(2) {
+  border-left: 1px dotted black;
+  border-right: 1px dotted black;
+}
+
+.features div p {
+  padding-left: 25px;
+  padding-right: 25px;
 }
